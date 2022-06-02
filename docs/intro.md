@@ -1,6 +1,8 @@
 ---
-sidebar_position: 1
-slug: /
+id: intro
+title: Introduction
+sidebar_label: Introduction
+hide_title: true
 ---
 
 # Tutorial Intro

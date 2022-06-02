@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Visualizer',
-  tagline: 'Dinosaurs are cool',
+  title: 'Visualizer Docs',
+  tagline: 'Visualizer Documentation',
   url: 'visualizer-docs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',

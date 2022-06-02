@@ -1,5 +1,8 @@
 ---
-sidebar_position: 4
+id: launch-visualizer
+title: Launch Visualizer
+sidebar_label: Launch Visualizer
+hide_title: true
 ---
 
 # Launching Visualizer

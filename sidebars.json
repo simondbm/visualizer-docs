@@ -1,0 +1,39 @@
+{
+  "docs": [
+    {
+      "type": "category",
+      "label": "Introduction",
+      "collapsed": false,
+      "items": ["intro"]
+    },
+    {
+      "type": "category",
+      "label": "Getting Started",
+      "collapsed": true,
+      "items": ["getting-started/launch-visualizer"]
+    },
+    {
+      "type": "category",
+      "label": "The User Interface",
+      "collapsed": true,
+      "items": ["the-user-interface/parts-of-the-visualizer-interface"]
+    },
+    {
+      "type": "category",
+      "label": "System Administration",
+      "collapsed": true,
+      "items": [
+        "system-admin/system-management",
+        "system-admin/data-management",
+        "system-admin/account-management",
+        "system-admin/project-management"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "User Guide",
+      "collapsed": true,
+      "items": ["user-guide/project-creation", "user-guide/model-creation"]
+    }
+  ]
+}
