@@ -1,11 +1,11 @@
 ---
-id: model-creation
-title: Model Creation
-sidebar_label: Model Creation
+id: data-wrapper
+title: Data Wrapper
+sidebar_label: Data Wrapper
 hide_title: true
 ---
 
-# Model Creation
+# Data Wrapper
 
 To add a Model, click the Projects and Models button to open the Projects and Models Management Window.
 
@@ -44,10 +44,3 @@ From the Model Revision Properties Modal, enter a Model revision Description, Mo
 The Process Status will now show 'Process requested - Processing.
 
 ![Project and Models](/img/models-process-requested.png)
-
-## Model Translation
-
-From the Project and Models Management Window, click on the Model File name, hold down
-the right-click on the mouse and select the Request Model Data Extraction.
-
-![Project and Models](/img/models-request-model-data-extraction.png)

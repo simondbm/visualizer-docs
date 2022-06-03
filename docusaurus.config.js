@@ -57,6 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        hideOnScroll: true,
         title: 'Visualizer',
         logo: {
           alt: 'Visualizer Logo',
@@ -68,6 +69,12 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'apiSidebar',
+            label: 'API',
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {

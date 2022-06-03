@@ -34,6 +34,82 @@
       "label": "User Guide",
       "collapsed": true,
       "items": ["user-guide/project-creation", "user-guide/model-creation"]
+    },
+    {
+      "type": "category",
+      "label": "API",
+      "collapsed": true,
+      "items": ["api-ss/visualizer-api/controllers/jobs-controller"]
+    }
+  ],
+  "apiSidebar": [
+    {
+      "type": "doc",
+      "id": "api/index",
+      "label": "Introduction"
+    },
+    {
+      "type": "category",
+      "label": "C - API",
+      "link": {
+        "type": "doc",
+        "id": "api/c-api/index"
+      },
+      "collapsed": false,
+      "items": [
+        {
+          "type": "category",
+          "label": "Visualizer API",
+          "link": {
+            "type": "doc",
+            "id": "api/c-api/visualizer-api/index"
+          },
+          "collapsed": false,
+          "items": ["api/c-api/visualizer-api/controllers/controllers"]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "D - Data and DTO",
+      "link": {
+        "type": "doc",
+        "id": "api/d-data-and-dto/index"
+      },
+      "collapsed": false,
+      "items": [
+        {
+          "type": "category",
+          "label": "A - Visualizer",
+          "link": {
+            "type": "doc",
+            "id": "api/d-data-and-dto/a-visualizer/index"
+          },
+          "collapsed": false,
+          "items": [
+            {
+              "type": "category",
+              "label": "DBMVisualizer Data",
+              "link": {
+                "type": "doc",
+                "id": "api/d-data-and-dto/a-visualizer/dbm-visualizer-data/index"
+              },
+              "collapsed": false,
+              "items": ["api/d-data-and-dto/a-visualizer/dbm-visualizer-data/models"]
+            },
+            {
+              "type": "category",
+              "label": "DBMVisualizer DataClient",
+              "link": {
+                "type": "doc",
+                "id": "api/d-data-and-dto/a-visualizer/dbm-visualizer-data/index"
+              },
+              "collapsed": false,
+              "items": ["api/d-data-and-dto/a-visualizer/dbm-visualizer-data-client/data-wrapper"]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
