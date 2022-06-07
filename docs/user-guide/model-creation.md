@@ -47,7 +47,10 @@ The Process Status will now show 'Process requested - Processing.
 
 ## Model Translation
 
-From the Project and Models Management Window, click on the Model File name, hold down
-the right-click on the mouse and select the Request Model Data Extraction.
+Once the Process Status has updated to blank, the model is ready for viewing
 
-![Project and Models](/img/models-request-model-data-extraction.png)
+![Project and Models](/img/models-translation.png)
+
+## Comments
+
+Once the Model has been translated should we update the Process Status to Translated or similar?
