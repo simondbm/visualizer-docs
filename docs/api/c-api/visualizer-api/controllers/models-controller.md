@@ -1,12 +1,12 @@
 ---
-id: controllers
-title: Controllers
+id: models-controller
+title: ModelsController
 display_sidebar: apiSidebar
-sidebar_label: Controllers
+sidebar_label: ModelsController
 hide_title: true
 ---
 
-# Controllers
+# ModelsController
 
 A controller is responsible for controlling the way that a user interacts with an MVC application. A controller contains the flow control logic for an ASP.NET MVC application. A controller determines what response to send back to a user when a user makes a browser request.
 

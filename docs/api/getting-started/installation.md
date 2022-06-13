@@ -1,11 +1,11 @@
 ---
-id: getting-started
-title: Getting Started
-sidebar_label: Getting Started
+id: installation
+title: Installation
+sidebar_label: Installation
 hide_title: true
 ---
 
-# Getting Started with Development
+# Installing DBM Visualizer
 
 To Get Started with the DBM Visualizer Project......
 

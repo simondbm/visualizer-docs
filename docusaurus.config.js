@@ -37,7 +37,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.json'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/simondbm/visualizer-docs/',
+          editUrl: 'https://github.com/simondbm/visualizer-docs/blob/main/',
         },
         blog: false,
         // blog: {
@@ -66,7 +66,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'introduction',
             position: 'left',
             label: 'Docs',
           },

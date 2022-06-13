@@ -1,34 +1,36 @@
 {
   "docs": [
-    {
-      "type": "category",
-      "label": "Introduction",
-      "collapsed": false,
-      "items": ["intro"]
-    },
+    "introduction",
     {
       "type": "category",
       "label": "Getting Started",
-      "collapsed": true,
-      "items": ["getting-started/launch-visualizer"]
-    },
-    {
-      "type": "category",
-      "label": "The User Interface",
-      "collapsed": true,
-      "items": ["the-user-interface/parts-of-the-visualizer-interface"]
-    },
-    {
-      "type": "category",
-      "label": "System Administration",
+      "link": {
+        "type": "generated-index"
+      },
       "collapsed": true,
       "items": [
-        "system-admin/system-management",
-        "system-admin/data-management",
-        "system-admin/account-management",
-        "system-admin/project-management"
+        "getting-started/launch-visualizer",
+        {
+          "type": "category",
+          "label": "The User Interface",
+          "link": {
+            "type": "generated-index"
+          },
+          "collapsed": true,
+          "items": [
+            "getting-started/the-user-interface/parts-of-visualizer-interface",
+            "getting-started/the-user-interface/application-button-and-menu",
+            "getting-started/the-user-interface/ribbon",
+            "getting-started/the-user-interface/info-center",
+            "getting-started/the-user-interface/dockable-windows",
+            "getting-started/the-user-interface/scene-view",
+            "getting-started/the-user-interface/navigation-tools",
+            "getting-started/the-user-interface/status-bar"
+          ]
+        }
       ]
     },
+
     {
       "type": "category",
       "label": "User Guide",
@@ -36,19 +38,58 @@
       "items": ["user-guide/project-creation", "user-guide/model-creation"]
     }
   ],
+
   "apiSidebar": [
     {
       "type": "category",
-      "label": "Introduction",
-      "collapsed": false,
-      "items": ["api/introduction/getting-started"]
+      "label": "Getting Started",
+      "link": {
+        "type": "generated-index"
+      },
+      "collapsed": true,
+      "items": ["api/getting-started/installation", "api/getting-started/local-dev-env"]
+    },
+    {
+      "type": "category",
+      "label": "B - UI",
+      "link": {
+        "type": "generated-index"
+      },
+      "collapsed": true,
+      "items": [
+        {
+          "type": "category",
+          "label": "DBM Visualizer",
+          "link": {
+            "type": "generated-index"
+          },
+          "collapsed": true,
+          "items": [
+            {
+              "type": "category",
+              "label": "Controllers",
+              "link": {
+                "type": "generated-index"
+              },
+              "collapsed": true,
+              "items": [
+                "api/b-ui/dbm-visualizer/controllers/domains-controller",
+                "api/b-ui/dbm-visualizer/controllers/groups-controller",
+                "api/b-ui/dbm-visualizer/controllers/oauth-controller",
+                "api/b-ui/dbm-visualizer/controllers/startup-configuration-controller",
+                "api/b-ui/dbm-visualizer/controllers/tokens-controller",
+                "api/b-ui/dbm-visualizer/controllers/users-controller"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "category",
       "label": "C - API",
       "link": {
-        "type": "doc",
-        "id": "api/c-api/index"
+        "type": "generated-index"
       },
       "collapsed": true,
       "items": [
@@ -56,11 +97,25 @@
           "type": "category",
           "label": "Visualizer API",
           "link": {
-            "type": "doc",
-            "id": "api/c-api/visualizer-api/index"
+            "type": "generated-index"
           },
           "collapsed": true,
-          "items": ["api/c-api/visualizer-api/controllers/controllers"]
+          "items": [
+            {
+              "type": "category",
+              "label": "Controllers",
+              "link": {
+                "type": "generated-index"
+              },
+              "collapsed": true,
+              "items": [
+                "api/c-api/visualizer-api/controllers/jobs-controller",
+                "api/c-api/visualizer-api/controllers/models-controller",
+                "api/c-api/visualizer-api/controllers/projects-controller",
+                "api/c-api/visualizer-api/controllers/users-controller"
+              ]
+            }
+          ]
         }
       ]
     },
