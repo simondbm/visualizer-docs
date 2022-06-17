@@ -160,6 +160,35 @@
           ]
         }
       ]
+    },
+    {
+      "type": "category",
+      "label": "X - External Connectors",
+      "link": {
+        "type": "generated-index"
+      },
+      "collapsed": true,
+      "items": [
+        {
+          "type": "category",
+          "label": "VisualizerAPI.Console",
+          "link": {
+            "type": "generated-index"
+          },
+          "collapsed": true,
+          "items": [
+            {
+              "type": "category",
+              "label": "Solution",
+              "link": {
+                "type": "generated-index"
+              },
+              "collapsed": true,
+              "items": ["api/x-external-connectors/visualizer-api-console/api"]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
