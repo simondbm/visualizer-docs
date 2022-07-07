@@ -163,6 +163,28 @@
     },
     {
       "type": "category",
+      "label": "F - Background Services",
+      "link": {
+        "type": "doc",
+        "id": "api/f-background-services/index"
+      },
+      "collapsed": true,
+      "items": [
+        {
+          "type": "category",
+          "label": "A - Visualizer",
+          "link": {
+            "type": "doc",
+            "id": "api/f-background-services/dbm-visualizer-background-services/index"
+          },
+          "collapsed": true,
+          "items": [
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
       "label": "X - External Connectors",
       "link": {
         "type": "generated-index"

@@ -7,14 +7,14 @@ hide_title: true
 
 # Project Creation
 
-To create a Project, click the Projects and Models button to open the Projects and Models Management Window.
+To create a Project, click the **Projects and Models** button located on the **System Administration** tab to open the Projects and Models Management Window.
 
 ![Project and Models](/img/project-and-models.png)
 
 ## Project and Models Management
 
-From the Project and Models Management Window, click on the + icon to add a project.
-note: Make sure you have the correct Company selected.
+From the Project and Models Management Window, click on the **+** icon to add a project.  
+Note: Make sure you have the correct Company selected.
 
 ![Project and Models](/img/project-add.png)
 
