@@ -27,3 +27,25 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 This site has been deployed to Netlify.
+
+### Check the status
+
+```
+git status
+```
+
+### Add the updates to the staging environment
+
+```
+git add .
+```
+
+### Commit the changes
+```
+git commit -m "message"
+```
+
+### Push to the branch
+```
+git push origin -u main
+```

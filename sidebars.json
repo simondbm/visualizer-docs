@@ -9,7 +9,7 @@
       },
       "collapsed": true,
       "items": [
-        "getting-started/launch-visualizer",
+        "getting-started/launch-visualizer", "index",
         {
           "type": "category",
           "label": "The User Interface",
