@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "heroku-postbuild": "npm run install && npm run build"
+    "heroku-postbuild": "npm run build"
 
   },
   "dependencies": {
