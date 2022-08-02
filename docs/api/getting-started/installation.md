@@ -30,6 +30,14 @@ Modify DBMVisualizer.BackgroundServices.exe.config to ensure these values are po
 installutil DBMVisualizer.BackgroundServices.exe
 ```
 
+## Unistalling the Background Service
+
+1. Run **InstallUtil.exe** from the command prompt with the project's executable as a parameter.
+
+```ts
+installutil /u DBMVisualizer.BackgroundServices.exe
+```
+
 ## Run the Service
 
 1. Open the Services Manger to check the service has been installed.

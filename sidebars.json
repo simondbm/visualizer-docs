@@ -47,7 +47,10 @@
         "type": "generated-index"
       },
       "collapsed": true,
-      "items": ["api/getting-started/installation", "api/getting-started/local-dev-env"]
+      "items": [
+        "api/getting-started/installation",
+        "api/getting-started/local-dev-env"
+      ]
     },
     {
       "type": "category",
@@ -79,6 +82,83 @@
                 "api/b-ui/dbm-visualizer/controllers/startup-configuration-controller",
                 "api/b-ui/dbm-visualizer/controllers/tokens-controller",
                 "api/b-ui/dbm-visualizer/controllers/users-controller"
+              ]
+            },
+            {
+              "type": "category",
+              "label": "TypeScript",
+              "link": {
+                "type": "generated-index"
+              },
+              "collapsed": true,
+              "items": [
+                {
+                  "type": "category",
+                  "label": "Data",
+                  "link": {
+                    "type": "generated-index"
+                  },
+                  "collapsed": true,
+                  "items": [
+                    "api/b-ui/dbm-visualizer/type-script/data/data-wrapper"
+                  ]
+                },
+                {
+                  "type": "category",
+                  "label": "DataSources",
+                  "link": {
+                    "type": "generated-index"
+                  },
+                  "collapsed": true,
+                  "items": [
+                    "api/b-ui/dbm-visualizer/type-script/plugins/schuff-open-model/ui/schuff-open-file-dialog"
+                  ]
+                },
+                {
+                  "type": "category",
+                  "label": "Plugins",
+                  "link": {
+                    "type": "generated-index"
+                  },
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "type": "category",
+                      "label": "Open File Plugin",
+                      "link": {
+                        "type": "generated-index"
+                      },
+                      "collapsed": true,
+                      "items": [
+                        "api/b-ui/dbm-visualizer/type-script/plugins/schuff-open-model/ui/schuff-open-file-dialog"
+                      ]
+                    },
+                    {
+                      "type": "category",
+                      "label": "Schuff Open Model",
+                      "link": {
+                        "type": "generated-index"
+                      },
+                      "collapsed": true,
+                      "items": [
+                        "api/b-ui/dbm-visualizer/type-script/plugins/schuff-open-model/schuff-open-file-plugin",
+                        "api/b-ui/dbm-visualizer/type-script/plugins/schuff-open-model/ui/schuff-open-file-dialog"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "category",
+                  "label": "UI",
+                  "link": {
+                    "type": "generated-index"
+                  },
+                  "collapsed": true,
+                  "items": [
+                    "api/b-ui/dbm-visualizer/type-script/ui/model-dialog",
+                    "api/b-ui/dbm-visualizer/type-script/ui/open-file"
+                  ]
+                }
               ]
             }
           ]
@@ -145,7 +225,9 @@
                 "id": "api/d-data-and-dto/a-visualizer/dbm-visualizer-data/index"
               },
               "collapsed": true,
-              "items": ["api/d-data-and-dto/a-visualizer/dbm-visualizer-data/models"]
+              "items": [
+                "api/d-data-and-dto/a-visualizer/dbm-visualizer-data/models"
+              ]
             },
             {
               "type": "category",
@@ -155,7 +237,9 @@
                 "id": "api/d-data-and-dto/a-visualizer/dbm-visualizer-data/index"
               },
               "collapsed": true,
-              "items": ["api/d-data-and-dto/a-visualizer/dbm-visualizer-data-client/data-wrapper"]
+              "items": [
+                "api/d-data-and-dto/a-visualizer/dbm-visualizer-data-client/data-wrapper"
+              ]
             }
           ]
         }
@@ -178,8 +262,7 @@
             "id": "api/f-background-services/dbm-visualizer-background-services/index"
           },
           "collapsed": true,
-          "items": [
-          ]
+          "items": []
         }
       ]
     },
