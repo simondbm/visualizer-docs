@@ -15,7 +15,7 @@ Namespace: DBM.Plugins
 
 Class: SchuffOpenFilePlugin
 
-| Syntax      | Description |
+| Classes      | Description |
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |

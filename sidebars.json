@@ -100,7 +100,8 @@
                   },
                   "collapsed": true,
                   "items": [
-                    "api/b-ui/dbm-visualizer/type-script/data/data-wrapper"
+                    "api/b-ui/dbm-visualizer/type-script/data/data-wrapper",
+                    "api/b-ui/dbm-visualizer/type-script/data/dbm-visualizer-dto"
                   ]
                 },
                 {
@@ -145,6 +146,29 @@
                         "api/b-ui/dbm-visualizer/type-script/plugins/schuff-open-model/ui/schuff-open-file-dialog"
                       ]
                     }
+                  ]
+                },
+                {
+                  "type": "category",
+                  "label": "Security",
+                  "link": {
+                    "type": "generated-index"
+                  },
+                  "collapsed": true,
+                  "items": [
+                    "api/b-ui/dbm-visualizer/type-script/security/security-manager"
+                  ]
+                },
+                {
+                  "type": "category",
+                  "label": "Startup",
+                  "link": {
+                    "type": "generated-index"
+                  },
+                  "collapsed": true,
+                  "items": [
+                    "api/b-ui/dbm-visualizer/type-script/startup/application-configurator",
+                    "api/b-ui/dbm-visualizer/type-script/startup/application-data-helper"
                   ]
                 },
                 {

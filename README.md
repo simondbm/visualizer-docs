@@ -49,3 +49,7 @@ git commit -m "message"
 ```
 git push origin -u main
 ```
+
+
+### Deploy to Azure
+https://www.youtube.com/watch?v=Kl9M7eut5Yo&list=PL8FM85_-SXvtRQ6qQCppS1DbwaBxzd7md&index=16
